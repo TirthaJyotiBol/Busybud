@@ -1,0 +1,45 @@
+.login_form{
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.login_input{
+    width: 55vw;
+    height: 5vh;
+    margin: 8px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+.login_form select{
+    width: 56.2vw;
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+}
+
+.login_button,.register_button{
+    margin-top: 25px;
+    height: 5vh;
+    width: 15vw;
+    padding: 4px;
+    background-color: rgb(0, 0, 255);
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: ease-in-out 0.5s;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.login_button:hover{
+    background-color: rgb(52, 97, 243);
+}
+
+.register_button{
+    margin-top: -5px;
+    background-color: rgb(138, 32, 0);
+}
+
+.register_button:hover{
+    background-color: rgb(231, 64, 12);
+}

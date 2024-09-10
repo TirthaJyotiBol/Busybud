@@ -1,0 +1,87 @@
+#navbar{
+    margin: 4px;
+    height: 12vh;
+    display: flex;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: rgb(0, 0, 204);
+}
+
+#navbar_lhs{
+    width: 25vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#navbar_rhs{
+    width: 75vw;
+    align-items: center;
+    padding-top: 2vh;
+}
+
+.link_elements_navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link_elements_navbar li{
+    list-style: none;
+    font-size: large;
+    font-weight: 400;
+}
+
+.link_elements_navbar li i{
+    font-size: larger;
+}
+
+#home_icon{
+    color: orangered;
+}
+
+#navbar_rhs li a{
+    display: flex;
+}
+
+#navbar_rhs img{
+    height: 40px;
+}
+
+.cart_item{
+    margin-top: 10px;
+}
+
+/* .outlets{
+    border: 1px solid black;
+    height: 75vh;
+    margin: 25px;
+} */
+
+.logout_nav{
+    color: blue;
+    cursor: pointer;
+}
+
+.login_nav{
+    position: absolute;
+    left: 95vw;
+}
+
+.cart_count_navbar{
+    position: absolute;
+    margin-left: 6vw;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 150px;
+    background-color: rgb(25, 0, 255);
+    color: white;
+    border: none;
+    margin-top: 5px;
+    width: 20px !important;
+}

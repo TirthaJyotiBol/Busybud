@@ -1,0 +1,62 @@
+.order_page{
+    height: 80vh;
+    overflow: scroll;
+    width: 80vw;
+    margin-left: 9vw;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.table{
+    margin: auto;
+    margin-left: 17vw;
+}
+
+.order_page::-webkit-scrollbar {
+    display: none; 
+}
+
+*::-webkit-scrollbar
+{
+    display: none;
+}
+
+.table img{
+    height: 205px;
+    width: 205px;
+}
+
+.filterSection{
+    width: 20vw;
+    position: fixed;
+}
+
+.search{
+    width: 15vw;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    padding: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+}
+
+.sortingButton{
+    padding: 15px;
+    width: 15vw;
+    margin: 5px;
+    cursor: pointer;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+
+.sortingButton:hover{
+    background-color: rgb(73, 0, 141);
+}
+
+.no_order{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+}
